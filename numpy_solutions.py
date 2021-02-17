@@ -59,8 +59,8 @@ print("Checkerboard:\n", mat_1)
 print()
 
 # i)
-mat_2 = np.array([[0, 1, 0, 1], [1, 0, 1, 0]])
-mat_2_checkered = np.tile(mat_2, (8 // 2, 8 // 4))
+mat_2 = np.array([[0, 1], [1, 0]])
+mat_2_checkered = np.tile(mat_2, (8 // 2, 8 // 2))
 print("Checkerboard using np.tile():\n", mat_2_checkered)
 print()
 
